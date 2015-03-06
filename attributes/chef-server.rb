@@ -10,7 +10,8 @@ default['chef_server12']['feature']['opscode-push-jobs-server'] = true
 default['chef_server12']['analytics'] = true
 
 # Chef Server Parameters
-default['chef_server12']['api_fqdn'] = node['ipaddress']
+default['chef_server12']['backend']['ipaddress'] = '52.10.240.15'
+default['chef_server12']['api_fqdn'] = "ec2-52-10-240-15.us-west-2.compute.amazonaws.com"
 default['chef_server12']['topology'] = 'standalone'
 default['chef_server12']['write_hosts'] = false
 

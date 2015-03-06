@@ -17,4 +17,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe "chef-server12::standalone"
+include_recipe "chef-server12::_install_server"
